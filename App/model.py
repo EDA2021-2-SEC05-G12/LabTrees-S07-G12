@@ -181,7 +181,7 @@ def maxKey(analyzer):
 
 def getCrimesByRange(analyzer, initialDate, finalDate):
     """
-    Retorna el numero de crimenes en un rago de fechas.
+    Retorna el numero de crimenes en un rango de fechas.
     """
     lst = om.values(analyzer['dateIndex'], initialDate, finalDate)
     totcrimes = 0
